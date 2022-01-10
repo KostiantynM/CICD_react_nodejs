@@ -16,7 +16,7 @@ jobs:
           node-version: '16'
       - run: |
           cd frontend
-          npm ci
+          npm i
           npm run test
 
   build:
