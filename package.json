@@ -1,0 +1,19 @@
+{
+  "name": "cicd_react_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo TEST"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KostiantynM/CICD_react_nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KostiantynM/CICD_react_nodejs/issues"
+  },
+  "homepage": "https://github.com/KostiantynM/CICD_react_nodejs#readme"
+}
