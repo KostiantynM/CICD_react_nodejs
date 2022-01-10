@@ -27,15 +27,18 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: npm install and npm run build
+      - name: FRONTEND - install and build
         run: |
-          npm i
           cd frontend
           npm i  --force
           npm run build
-          cd ..
+      - name: BACKEND install
+        run: |
+          npm i --force
+      - name: BACKEND - restart
           pm2 stop 0
           pm2 start 0
           pm2 save
+      - name: PROXY - restart
           sudo service nginx restart
 
