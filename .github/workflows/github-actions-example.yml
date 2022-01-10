@@ -32,6 +32,7 @@ jobs:
           cd frontend
           npm i  --force
           npm run build
+          cd ..
       - name: BACKEND install
         run: |
           npm i --force
