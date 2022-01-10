@@ -2,8 +2,8 @@
 /coverage
 
 # production
-/build
-/node_modules
+dist
+node_modules
 
 # misc
 .DS_Store
