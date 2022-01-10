@@ -20,7 +20,7 @@ jobs:
           npm run test
 
   build:
-    runs-on: self-hosted
+    runs-on: [dev-self-hosted, qa-self-hosted]
     strategy:
       matrix:
         node-version: [ 16.x ]
