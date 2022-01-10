@@ -20,7 +20,7 @@ jobs:
           npm run test
 
   build:
-    runs-on: [qa-cicd-react-example, cicd-react-example]
+    runs-on: self-hosted
     strategy:
       matrix:
         node-version: [ 16.x ]
