@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/KostiantynM/CICD_react_nodejs/issues"
   },
-  "homepage": "https://github.com/KostiantynM/CICD_react_nodejs#readme"
+  "homepage": "https://github.com/KostiantynM/CICD_react_nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
