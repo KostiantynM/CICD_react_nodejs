@@ -42,5 +42,5 @@ jobs:
           pm2 save
       - name: PROXY - restart
         run: |
-          sudo service nginx restart
+          sudo /usr/sbin/service nginx restart
 
